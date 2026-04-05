@@ -1,4 +1,7 @@
 -main Main
 -js game.js
 -D analyzer-optimize
-
+-D dce=full
+-D js-es=6
+-D js-error
+--no-traces
